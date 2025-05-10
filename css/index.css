@@ -1,0 +1,108 @@
+/* Top Nav Bar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; 
+}
+
+header h1 {
+    text-align: left;
+    text-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav li{
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+
+/* Body */
+body {
+    background-color: aqua;
+}
+
+
+main {
+    display: flex-box;
+}
+
+/* Intro Area*/
+
+.intro {
+    display: relative;
+    margin-top: 80px;
+}
+
+.welcome h1 {
+    font-size: 48px;
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+.instructions h4 {
+    text-align: center;
+}
+
+.instructions p {
+    text-align: center;
+}
+
+/* HTML */
+.container {
+    display: flex;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h2 {
+    text-align: center;
+}
+
+.text h4 {
+    text-align: center;
+}
+
+.text form {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 25%;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+/* Input-Area */
+
+.input-area {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
